@@ -58,6 +58,6 @@ Once both servers are running, you can use the application to search for candida
 
 In developing the Cornell Tech Intern Search App, my primary focus was to create an intuitive and efficient user interface that enhances the user experience in searching for intern candidates. I opted for React along with Ant Design to leverage advanced UI components that offer both aesthetic appeal and interactive functionality. The application was structured to support real-time filtering of candidates based on criteria such as name, role, and GPA, allowing for quick and dynamic searches. To handle state management and facilitate seamless updates to the UI, I used React's useState and useEffect hooks, ensuring that the application remains responsive and performant. To provide the backend for this application, I utilized JSON Server to simulate a REST API, which allows for development and testing without the need for a live backend setup. This approach not only expedited the development process but also ensured that the application could be easily connected to a real server in the future with minimal adjustments.
 
-An index.js is set up by default in the main directory, but it references App.js, which is found within the src folder. Additionally, App.js relies on SearchInput and CandidateList within the components folder.
+An index.js is set up by default in the src directory, but it references App.js, which is found within the pages folder. Additionally, App.js relies on SearchInput and CandidateList within the components folder.
 
 
