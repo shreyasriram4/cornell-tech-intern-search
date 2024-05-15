@@ -1,0 +1,85 @@
+{
+    "candidates": [
+        {
+        "id": 1,
+        "first_name": "Melissa",
+        "last_name": "Tan",
+        "email": "mrt96@cornell.edu",
+        "linkedin": "https://www.linkedin.com/in/melissa-tan-rui-lin/",
+        "role": ["UX Research"],
+        "gpa": 3.8
+        },
+        {
+        "id": 2,
+        "first_name": "Yizhi",
+        "last_name": "Hao",
+        "email": "yh2222@cornell.edu",
+        "linkedin": "https://www.linkedin.com/in/ethan-h-b760a21ab/",
+        "role": ["SDE"],
+        "gpa": 3.5
+        },
+        {
+        "id": 3,
+        "first_name": "Ao",
+        "last_name": "Chen",
+        "email": "ac2698@cornell.edu",
+        "linkedin": "https://www.linkedin.com/in/aochen630/",
+        "role": ["SDE"],
+        "gpa": 3.4
+        },
+        {
+        "id": 4,
+        "first_name": "Nathaniel Nirmal",
+        "last_name": "Anthony Thiagarajan",
+        "email": "na453@cornell.edu",
+        "linkedin": "https://www.linkedin.com/in/nathanielat/",
+        "role": ["SDE"],
+        "gpa": 3.9
+        },
+        {
+        "id": 5,
+        "first_name": "Christy",
+        "last_name": "Wu",
+        "email": "mw897@cornell.edu",
+        "linkedin": "https://www.linkedin.com/in/christy--wu/",
+        "role": ["PM"],
+        "gpa": 3.5
+        },
+        {
+        "id": 6,
+        "first_name": "Ben",
+        "last_name": "Setel",
+        "email": "bs836@cornell.edu",
+        "linkedin": "https://www.linkedin.com/in/bensetel/",
+        "role": ["Engineering"],
+        "gpa": 3.0
+        },
+        {
+        "id": 7,
+        "first_name": "Aryan",
+        "last_name": "Patil",
+        "email": "ap2365@cornell.edu",
+        "linkedin": "https://www.linkedin.com/in/patilaryan/",
+        "role": ["Data Science", "AI/ML intern"],
+        "gpa": 3.4
+        },
+        {
+        "id": 8,
+        "first_name": "Haomiao",
+        "last_name": "Li",
+        "email": "hl2386@cornell.edu",
+        "linkedin": "https://www.linkedin.com/in/haomiaoli2386/",
+        "role": ["Data Science", "AI/ML intern"],
+        "gpa": 3.6
+        },
+        {
+        "id": 9,
+        "first_name": "Haran",
+        "last_name": "Rajkumar",
+        "email": "hr322@cornell.edu",
+        "linkedin": "https://www.linkedin.com/in/haranrk",
+        "role": ["ML", "Engineering"],
+        "gpa": 3.1
+        }
+        ]
+}
