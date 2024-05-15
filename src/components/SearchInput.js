@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Input, Button, Select, Slider } from 'antd';
-import '../styles/globals.css';  // Ensure your CSS file is properly imported
+import '../styles/globals.css'; 
 
 const { Option } = Select;
 

@@ -1,41 +1,40 @@
 import React from 'react';
 import { Table } from 'antd';
-import '../styles/globals.css'; // Ensure your styles are imported
+import '../styles/globals.css';
 
 function CandidateList({ candidates }) {
-    // Define the table columns
     const columns = [
         {
             title: 'Name',
             key: 'name',
-            render: (text, record) => `${record.first_name} ${record.last_name}` // Combines first and last name
+            render: (text, record) => `${record.first_name} ${record.last_name}`
         },
         {
             title: 'Email',
             dataIndex: 'email',
             key: 'email',
-            render: email => <a href={`mailto:${email}`}>{email}</a> // Creates a mailto link
+            render: email => <a href={`mailto:${email}`}>{email}</a>
         },
         {
             title: 'LinkedIn',
             dataIndex: 'linkedin',
             key: 'linkedin',
-            render: url => <a href={url} target="_blank" rel="noopener noreferrer">Profile</a> // Link to LinkedIn profile
+            render: url => <a href={url} target="_blank" rel="noopener noreferrer">Profile</a>
         },
         {
             title: 'Role',
             dataIndex: 'role',
             key: 'role',
-            render: roles => roles.join(', ') // Joins multiple roles into a single string
+            render: roles => roles.join(', ')
         },
         {
             title: 'GPA',
             dataIndex: 'gpa',
-            key: 'gpa' // Display GPA directly
+            key: 'gpa'
         }
     ];
 
-    // Prepare data for rendering in the Table
+
     const dataSource = candidates.map(candidate => ({
         key: candidate.id,
         first_name: candidate.first_name,
